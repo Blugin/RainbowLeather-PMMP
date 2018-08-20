@@ -44,4 +44,11 @@ class RainbowLeather extends PluginBase{
 	public function onLoad() : void{
 		self::$instance = $this;
 	}
+
+	/**
+	 * Called when the plugin is enabled
+	 */
+	public function onEnable() : void{
+		$this->getScheduler()->scheduleRepeatingTask(new RainbowTask(), 5);
+	}
 }
