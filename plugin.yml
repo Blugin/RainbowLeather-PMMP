@@ -4,6 +4,5 @@ main: kim\present\rainbowleather\RainbowLeather
 version: 1.0.0
 api: [3.0.0, 4.0.0]
 author: PresentKim
-website: https://github.com/PresentKim/RainbowLeather-PMMP
 description: Rainbow leather armors!
 ...
